@@ -17,9 +17,9 @@ import os
 from typing import List, Dict, Any, Optional
 from dotenv import load_dotenv
 from langchain_mistralai import ChatMistralAI
-from langchain.prompts import ChatPromptTemplate
-from langchain.schema.output_parser import StrOutputParser
-from langchain.schema.runnable import RunnablePassthrough
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnablePassthrough
 from rag.retriever import CreditCardRetriever
 
 # Load environment variables
