@@ -1,5 +1,11 @@
 langchain
 langchain_community
+langchain_mistralai
+langchain_core
 fastapi
 python-dotenv
 uvicorn
+mistralai
+pinecone
+tqdm
+requests
