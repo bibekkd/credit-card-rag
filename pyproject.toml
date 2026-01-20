@@ -12,7 +12,6 @@ dependencies = [
     "langchain-mistralai>=1.1.1",
     "mistralai>=1.10.1",
     "pinecone>=8.0.0",
-    "pinecone-client>=6.0.0",
     "python-dotenv>=1.2.1",
     "tqdm>=4.67.1",
     "uvicorn>=0.40.0",
